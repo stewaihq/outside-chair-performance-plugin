@@ -1,5 +1,6 @@
 {
   "name": "outside-chair-performance",
+  "displayName": "Outside Chair — Performance",
   "description": "Turn ordinary performance files into a Decision-Ready Review; extracted figures and note claims may be retained for seven days, but source files are not stored.",
   "version": "0.1.33",
   "author": {
@@ -9,6 +10,11 @@
   },
   "homepage": "https://outsidechair.com/performance",
   "repository": "https://github.com/stewaihq/outside-chair-performance-plugin",
+  "icon": "./assets/outside-chair-mark.png",
+  "documentationUrl": "https://outsidechair.com/connect",
+  "supportUrl": "https://outsidechair.com/support",
+  "privacyPolicyUrl": "https://outsidechair.com/privacy",
+  "termsOfServiceUrl": "https://outsidechair.com/terms",
   "keywords": [
     "performance",
     "finance",
