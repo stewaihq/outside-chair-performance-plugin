@@ -1,0 +1,19 @@
+{
+  "name": "outside-chair-performance",
+  "description": "Turn ordinary performance files into a Decision-Ready Review; extracted figures and note claims may be retained for seven days, but source files are not stored.",
+  "version": "0.1.33",
+  "author": {
+    "name": "StewAI AG",
+    "email": "support@stewai.com",
+    "url": "https://outsidechair.com"
+  },
+  "homepage": "https://outsidechair.com/performance",
+  "repository": "https://github.com/stewaihq/outside-chair-performance-plugin",
+  "keywords": [
+    "performance",
+    "finance",
+    "operations",
+    "governance",
+    "mcp"
+  ]
+}

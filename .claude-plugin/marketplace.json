@@ -1,0 +1,15 @@
+{
+  "name": "outside-chair-performance-plugin",
+  "description": "Outside Chair — Performance from StewAI AG.",
+  "owner": {
+    "name": "StewAI AG",
+    "email": "support@stewai.com"
+  },
+  "plugins": [
+    {
+      "name": "outside-chair-performance",
+      "source": "./",
+      "description": "Turn existing performance files into clear findings, action and follow-up."
+    }
+  ]
+}

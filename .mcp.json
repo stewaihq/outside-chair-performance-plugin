@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "outside-chair-performance": {
+      "type": "http",
+      "url": "https://app.outsidechair.com/mcp/performance"
+    }
+  }
+}
