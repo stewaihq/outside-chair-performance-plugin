@@ -26,8 +26,8 @@ With files, start immediately. Infer the practical question; otherwise ask “Wh
 
 1. Call `get_performance_profile` on `outside-chair-performance`. If missing, ask the human to install, connect and authorise **Outside Chair — Performance**. Never substitute Strategy, memory or simulation.
 2. Compute workbook SHA-256; resolve by `sourceDigest`, then organisation or exact name. Hide IDs.
-3. Extract every workbook; pass notes with `--context-file` and send `review-package.json` unchanged. Saved context never replaces the upload. Do not create a workspace, draft or proposal. Read [references/document-extraction.md](references/document-extraction.md).
-4. Treat extractor exit code 2 as a correction step. Apply a verified unique repair or relay its one ambiguity question, then rerun. Never abandon Performance because a file looks large.
+3. Extract every workbook and accompanying note using the host's file-analysis tools and the declarative extraction reference; send the resulting `review-package.json` unchanged. Saved context never replaces the upload. Do not create a workspace, draft or proposal. Read [references/document-extraction.md](references/document-extraction.md).
+4. Treat unmapped labels as a correction step. Verify a unique workbook-definition match or relay one ambiguity question, then extract again. Never abandon Performance because a file looks large.
 5. Without a new workbook, use the matched workspace and call `get_performance_context` once with `reviewMode: auto`. On `performance_intake_confirmation_required`, return `recovery` verbatim; after the reply reuse its reference, brief and `intakeHash` with one returned `choiceKey` per `issueKey`.
 
 ## Verified review
@@ -75,6 +75,6 @@ The governed loop is **SET UP → CLOSE → COMMIT → FOLLOW UP**: define metri
 
 Preserve decimal strings, periods, scenario, unit, currency, scale and dimensions. Blanks never become zero. Never infer meaning, direction, approval, budgets, missing values or causes. Only a server intake question permits clarification; keep opaque keys in tool calls.
 
-Microsoft 365 can review existing saved records, commitments and follow-ups. A new raw-spreadsheet review requires a host capable of running the bundled extractor. Otherwise say so and do not request a file.
+Microsoft 365 can review existing saved records, commitments and follow-ups. A new raw-spreadsheet review requires host file-analysis tools that can read the original bytes, preserve exact decimal values and source cells, and construct the documented review package. Otherwise say so and do not request a file.
 
 Stop if the production connection fails. Never invent successful persistence.
